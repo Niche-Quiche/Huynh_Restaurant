@@ -1,0 +1,136 @@
+body {
+  font-family: sans-serif;
+}
+
+.row {
+  height: 47vw;
+  border: none;
+}
+
+.top {
+  height: 90px;
+}
+
+h1 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Staatliches";
+  font-size: 40px;
+}
+h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: "Staatliches";
+  font-size: 20px;
+  box-shadow: 0px 2px 12px -7px maroon;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(255, 09, 18);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 4px 10px;
+}
+
+.im1 {
+  background-image: url(interior.jpg);
+  height: 500px;
+  width: 550px;
+  transition: 1s;
+  margin: 45px 10px 80px -30px;
+}
+
+/* .img1 {
+  height: 380px;
+  width: 500px;
+  padding: 0px;
+  margin: 55px 10px 80px 10px;
+  border-bottom: 1px groove maroon;
+  border-radius: 2%;
+  border-right: 1px solid black;
+  box-shadow: 7px 7px 20px maroon;
+} */
+
+.im1:hover {
+  background-image: url(pho.jpg);
+  background-repeat: no-repeat;
+  width: 800px;
+  transition: 1s;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0px;
+  font-family: "Staatliches";
+  justify-content: center;
+  list-style: none;
+}
+
+.hide {
+  height: 10px;
+}
+.numba {
+  font-size: 20px;
+  color: rgb(255, 09, 18);
+}
+
+.dot1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 165px;
+  width: 165px;
+  background-color: rgb(235, 201, 8);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 238px 4px 0px 796px;
+}
+
+.dot2 {
+  height: 145px;
+  width: 145px;
+  margin: 70px 0px 0px 804px;
+  font-size: 30px;
+  padding: 50px 28px;
+  background-color: rgb(255, 09, 18);
+}
+
+.dot3 {
+  margin: 270px 0px 0px 804px;
+  height: 145px;
+  width: 145px;
+  font-size: 30px;
+  padding: 50px 28px;
+  background-color: rgb(255, 09, 18);
+}
+
+.lenk {
+  font-family: "Staatliches";
+  text-decoration: none;
+  color: black;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+}
+
+.quote {
+  display: flex;
+  justify-content: left;
+  font-family: "sans-serif";
+  font-size: 20px;
+}
+
+.two {
+  margin: 40px;
+  font-family: "sans-serif";
+}
